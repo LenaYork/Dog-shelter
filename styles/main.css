@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+p,
+h1,
+h2,
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.about,
+.help {
+    background-color: #FFFFFF;
+}
+
+.our-friends,
+.in-addition {
+    background-color: #F6F6F6;
+}
+
+.section-frame {
+    margin: 0 auto;
+}
+
+.button {
+    padding: 15px 45px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #292929;
+
+    transition: 0.5s;
+}
+
+.button:hover {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button:active {
+    transform: scale(105%);
+}
