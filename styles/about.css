@@ -1,0 +1,140 @@
+.about-title {
+    max-width: 370px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.about-text {
+    max-width: 430px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}
+
+.about-info {
+    width: 300px;
+    height: 494px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-frame {
+    display: flex;
+}
+
+@media(min-width: 1280px) {
+    .about {
+        height: 558px;
+    }
+
+    .about-frame {
+        justify-content: space-between;
+        align-items: center;
+        height: 558px;
+        width: 805px;
+    }
+
+    .about-info {
+        width: 430px;
+        height: 380px;
+    }
+
+    .about-pic {
+        height: 408px;
+        width: 300px;
+    }
+
+    .about-title {
+        font-size: 35px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1279.9px) {
+    .about {
+        box-sizing: border-box;
+        height: 1048px;
+        padding: 80px 0 100px;
+    }
+
+    .about-frame {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 437px;
+        height: 868px;
+    }
+
+    .about-info {
+        width: 430px;
+        height: 380px;
+    }
+
+    .about-title {
+        font-size: 35px;
+    }
+
+    .about-pic {
+        width: 300px;
+        height: 408px;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 767.9px) {
+    .about-frame {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        height: 890px;
+    }
+
+    .about {
+        box-sizing: border-box;
+        height: 974px;
+        padding: 42px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-info {
+        width: 270px;
+        margin: 0 15px;
+        height: 494px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about-pic {
+        margin: 0 auto;
+        width: 260px;
+        height: 353.6px;
+    }
+
+    .about-pic img {
+        width: 260px;
+        height: 353.6px;
+    }
+
+    .about-title {
+        font-size: 25px;
+        width: 250px;
+        text-align: center;
+    }
+
+    .about-text {
+        font-size: 15px;
+        line-height: 160%;
+        text-align: justify;
+    }
+}

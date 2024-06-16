@@ -380,12 +380,12 @@
         width: 260px;
         height: 271.77px;
         margin: 0 auto;
-        margin-top: 105px;
     }
 
     .not-only-pic img {
         width: 260px;
         height: 271.77px;
+        margin-top: 0;
     }
 
     .not-only-info {
