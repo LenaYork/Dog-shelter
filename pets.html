@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our pets</title>
+    <link rel="stylesheet" href="./styles/pets.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrapper" id="wrapper">
+        <div class="header-container">
+            <div id="fade-wrapper">
+            </div>
+            <div class="mobile-menu" id="mobile-menu">
+                <div class="mobile-line"></div>
+                <div class="mobile-line"></div>
+                <div class="mobile-line"></div>
+            </div>
+            <header class="header" id="header">
+                <div class="logo-area">
+                    <h1 class="logo-title"><a href="./index.html" class="logo-title">Cozy House</a></h1>
+                    <p class="logo-text">Shelter for pets in Boston</p>
+                </div>
+                <nav class="menu-nav">
+                    <ul class="header-ul">
+                        <li><a href="./index.html#about" class="header-nav-link">About the shelter</a></li>
+                        <li><a href="#" class="about-link active-nav-link">Our pets</a></li>
+                        <li><a href="./index.html#help" class="header-nav-link">Help the shelter</a></li>
+                        <li><a href="#footer" class="header-nav-link">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-links closed hidden-menu">
+                    <div class="mobile-links-ul">
+                        <li><a href="./index.html#about" class="header-nav-link">About the shelter</a></li>
+                        <li><a href="#" class="about-link active-nav-link">Our pets</a></li>
+                        <li><a href="./index.html#help" class="header-nav-link">Help the shelter</a></li>
+                        <li><a href="#footer" class="header-nav-link">Contacts</a></li>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="main-container">
+            <main class="friends">
+                <h3 class="friends-title">Our friends who<br class="hidden-br-friends"> are looking for a house</h3>
+                <div class="friends-items"></div>
+
+                <div class="pets-arrows">
+                    <div class="pets-arrow disabled-pets-arrow" id="first-page">&lt;&lt;</div>
+                    <div class="pets-arrow disabled-pets-arrow" id="previous-page">&lt;</div>
+                    <div class="pets-arrow current-page-div">
+                        <p class="current-page-number" id="current-page-number">1</p>
+                    </div>
+                    <div class="pets-arrow active-pets-arrow" id="next-page">&gt;</div>
+                    <div class="pets-arrow active-pets-arrow" id="last-page">&gt;&gt;</div>
+                </div>
+            </main>
+        </div>
+        <div class="footer-container" id="footer">
+            <footer class="footer">
+                <div class="footer-contacts">
+                    <h3 class="footer-title">For questions and suggestions</h3>
+
+                    <div class="mail">
+                        <a href="mailto:email@shelter.com"><img src="./assets/images/mail.png" alt="mail"
+                                class="footer-item"></a>
+                        <a href="mailto:email@shelter.com" class="footer-info">email@shelter.com</a>
+                    </div>
+                    <div class="phone">
+                        <a href="tel:+136745677554"><img src="./assets/images/phone.png" alt="phone"
+                                class="footer-item"></a>
+                        <a href="tel:+136745677554" class="footer-info">+13 674 567 75 54</a>
+                    </div>
+
+                </div>
+                <div class="footer-address">
+                    <h3 class="footer-title">We are waiting for your visit</h3>
+                    <div class="map">
+                        <a href="https://goo.gl/maps/iJKt6QkKWQhnAVgt7" target="_blank"><img
+                                src="./assets/images/icon-marker.png" alt="map" class="footer-item map-icon1"></a>
+                        <a href="https://goo.gl/maps/iJKt6QkKWQhnAVgt7" class="footer-info" target="_blank">1 Central
+                            Street, Boston (entrance from the store)</a>
+                    </div>
+                    <div class="map">
+                        <a href="https://goo.gl/maps/9eZvVxgTi4npiVBV6" target="_blank"><img
+                                src="./assets/images/icon-marker.png" alt="map" class="footer-item"></a>
+                        <a href="https://goo.gl/maps/9eZvVxgTi4npiVBV6" class="footer-info" target="_blank">18 South
+                            Park, London</a>
+                    </div>
+
+                </div>
+                <div class="footer-pic">
+                    <img src="./assets/images/footer-puppy.png" alt="contacts">
+                </div>
+
+            </footer>
+        </div>
+    </div>
+
+    <script src="./petsStorage.js"></script>
+    <script src="./pets.js"></script>
+</body>
+
+</html>
