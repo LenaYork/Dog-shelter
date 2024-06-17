@@ -1,0 +1,188 @@
+.in-addition {
+    box-sizing: border-box;
+    background-color: #F6F6F6;
+}
+
+.in-addition-frame {
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addition-title {
+    max-width: 300px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.addition-bank {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.additional-text {
+    margin-top: 25px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #B2B2B2;
+}
+
+.card-number {
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F1CDB3;
+    border-radius: 9px;
+}
+
+.card-number-text {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.card-number-text:visited,
+.card-number-text:active {
+    color: #545454;
+}
+
+.card-number:hover {
+    background-color: #c69c7d;
+    transition: 0.5s;
+}
+
+@media(min-width: 1280px) {
+    .in-addition {
+        height: 462px;
+        padding: 80px 182px 100px 183px;
+    }
+
+    .in-addition-frame {
+        width: 915px;
+        height: 282px;
+        max-width: 1280px;
+        flex-direction: row;
+    }
+
+    .addition-info {
+        max-width: 380px;
+        height: 282px;
+        margin-left: 30px;
+    }
+
+    .addition-title {
+        font-size: 35px;
+    }
+
+    .card-number {
+        width: 349px;
+    }
+
+    .card-number-text {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1279.9px) {
+    .in-addition {
+        height: 783px;
+        padding: 80px 132px 100px 131px;
+    }
+
+    .in-addition-frame {
+        max-width: 768;
+        flex-direction: column-reverse;
+    }
+
+    .addition-pic {
+        margin-top: 60px;
+    }
+
+    .addition-title {
+        font-size: 35px;
+    }
+
+    .addition-info {
+        max-width: 380px;
+        height: 282px;
+    }
+
+    .card-number {
+        width: 349px;
+    }
+
+    .card-number-text {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 767px) {
+    .in-addition {
+        height: 542.2px;
+        padding: 42px 10px;
+    }
+
+    .in-addition-frame {
+        max-width: 320px;
+        height: 458.2px;
+        flex-direction: column-reverse;
+    }
+
+    .addition-pic img {
+        height: 135.2px;
+        width: 260px;
+        margin-top: 42px;
+    }
+
+    .addition-title {
+        font-size: 25px;
+        text-align: center;
+        width: 210px;
+        margin: 0 auto;
+    }
+
+    .additional-text {
+        text-align: justify;
+        width: 280px;
+    }
+
+    .addition-info {
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-number {
+        width: 281px;
+    }
+
+    .card-number-text {
+        font-size: 15px;
+    }
+}

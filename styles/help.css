@@ -140,7 +140,7 @@
     .help {
         box-sizing: border-box;
         padding: 42px 15px;
-        height: 745px;
+        /* height: 745px; */
     }
 
     .section-help {
