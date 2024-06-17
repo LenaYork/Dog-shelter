@@ -59,7 +59,7 @@
     }
 }
 
-@media(min-width: 768px) and (max-width: 1279.9px) {
+@media(max-width: 1279.9px) {
     .about {
         box-sizing: border-box;
         height: 1048px;
@@ -89,11 +89,12 @@
     }
 }
 
-@media(min-width: 320px) and (max-width: 767.9px) {
+@media(max-width: 767px) {
     .about-frame {
         flex-direction: column-reverse;
         justify-content: space-between;
         height: 890px;
+        width: 80vw;
     }
 
     .about {
